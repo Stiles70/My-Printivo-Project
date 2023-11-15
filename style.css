@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav1{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+    background-color: rgb(247, 246, 244);
+    height: 60px;
+    /* align-items: center; */
+}
+
+.nav{
+    margin-left: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+.nav:nth-child(6){
+    padding-left: 70px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+
+.but{
+    padding: 7px 13px;
+    border-radius: 60px;
+    border: 1px solid lightgray; 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(83, 98, 116);
+    font-weight: 500;
+}
+
+.but img{
+    margin-right: 10px;
+}
+
+.nav:nth-child(5){
+    padding-left: 90px;
+    margin-top: -10px;
+}
+
+.nav:nth-child(4){
+    padding-left: 320px;
+}
+
+.nav:nth-child(2){
+    padding-left: 60px;
+}
+
+.nav:nth-child(3){
+    padding-left: 60px;
+}
+
+.num{
+    color: #8fcdf3;
+    font-weight: 700;
+}
+
+.big{
+    background-color: rgb(236, 232, 217);
+    height: 480px;
+}
+
+.search{
+    transform: translate(550px, -50px);
+    /* position: fixed; */
+}
+
+.top{
+    display: flex;
+    padding-top: 30px;
+    margin-left: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: sticky;
+    top: 0;
+    /* background-color: white; */
+}
+
+.top1{
+    margin-left: 260px;
+    margin-top: 10px;
+}
+
+.top2{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: rgb(156, 162, 164);
+}
+
+.top3{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.top4{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.top5{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.sign{
+    color: rgb(220, 152, 149);
+}
+
+.top6{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.top7{
+    margin-left: 30px;
+}
+
+.content-container{
+    display: flex;
+}
+
+.content{
+    margin-top: 70px;
+    margin-left: 50px;
+    /* display: flex; */
+}
+
+.con1{
+    color: rgb(56, 74, 98);
+    font-size: 65px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.con2{
+    color: rgb(112, 128, 149);
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: 550;
+    font-family: sans-serif;
+    padding-left: 0px;
+}
+
+.con3{
+    margin-top: 40px;
+    font-family: sans-serif;
+    color: rgb(56, 80, 111);
+    font-size: 15px;
+}
+
+.con4{
+    /* padding: 32px ; */
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 5px; 
+    text-align: left; 
+    width: 600px; 
+    padding: 30px 0 30px 20px;
+}
+
+.card{
+    margin-left: 162px;
+    margin-top: 60px;
+}
+
+.gifts{
+    background-color: rgb(243, 177, 205);
+    height: 80px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.cop{
+    padding-top: 30px;
+}
+
+#shop{
+    text-decoration: underline;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.head1{
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(81, 74, 98);
+}
+
+.head2{
+    margin-right: 55px;
+}
+
+.hea{
+    color: rgb(243, 177, 205);
+}
+
+.box-container{
+    display: flex;
+    padding: 5px 5px;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.box{
+    height: 480px;
+    width: 268px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+.start{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#start{
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: rgb(130, 153, 186);
+}
+
+.price{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#price1{
+    font-size: 17px;
+}
+
+#price2{
+    margin-bottom: 20px;
+    margin-left: -13px;
+}
+
+.butt{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 12px;
+    background-color: rgb(215, 127, 129);
+    border: 1px solid lightgray; 
+    color: white;
+    border-radius: 7px;
+}
+
+#butt{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+span{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    margin-left: 50px;
+    margin-top: 100px;
+    font-family: serif;
+    color: rgb(56, 80, 111);
+    font-weight: 900;
+}
+
+.headerr{
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 25px;
+    color: rgb(80, 102, 131);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.global{
+    margin-left: 50px;
+    padding: 20px 0 ;
+}
+
+
+.twitter-box{
+    background-color: rgb(237, 246, 253);
+    height: 350px;
+    width: 100%;
+}
+
+.tweet{
+    display: flex;
+    margin-left: 50px;
+    gap: 40px;
+    padding: 5px 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.tweethead{
+    padding-top: 60px;
+    margin-left: 50px;
+    font-family: serif;
+    font-size: 30px;
+    color: rgb(80, 102, 131);
+    font-weight: 700;
+}
+
+.tweets{
+    height: 180px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.x-logo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ebele{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.amina{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: rgb(54, 169, 243);
+    font-family: sans-serif;
+}
+
+.x1{
+    margin-left: 55px;
+    margin-top: 20px;
+    font-family: sans-serif;
+   font-weight: 100;
+}
+
+.count{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: rgb(80, 102, 131);
+    font-weight: 900;
+    font-family: serif;
+}
+
+.counthead{
+    margin-left: 50px;
+    gap: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.counts1{
+    height: 150px;
+    width: 300px;
+}
+
+.counts2{
+    height: 150px;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.counts3{
+    height: 10px;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.counts1-1{
+    margin-top: 10px;
+}
+
+.counts1-2{
+    margin-top: 0;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.counts1-3{
+    margin-top: 10px;
+    color: rgb(141, 159, 182);
+    margin-left: 5px;
+    font-family: sans-serif;
+}
+
+.tech-main{
+    min-height: 300px;
+    background-color: rgb(247, 246, 244);
+}
+
+.tech-head{
+    padding-top: 100px;
+    margin-left: 50px;
+    color: rgb(56, 74, 98);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.tech-span{
+    margin-top: 20px;
+    margin-left: 50px;
+    gap: 60px;
+}
+
+.tech:nth-child(3){
+    padding-top: 20px;
+}
+
+#point{
+    margin-top: 12px;
+}
+
+.foot{
+    background-color: rgb(56, 74, 98);
+    min-height: 350px;
+}
+
+.foot-head{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.print{
+    color: rgb(236, 232, 217);
+}
+
+.foot-first{
+    padding: 15px 0 15px 0;
+}
+
+.foots{
+    padding-top: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.foot-span{
+    display: flex;
+    gap: 120px;
+}
+
+.footer{
+    background-color: rgb(203, 202, 200);
+    min-height: 100px;
+    text-align: center;
+}
+
+.footer-con{
+    padding-top: 50px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+ @media (max-width:426px){
+    .nav {
+        display: none;
+    }
+    #nav2{
+        display: block;
+    }
+
+    .top1, .top2, .top3, .top4, .top6{
+        display: none;
+    }
+    
+    #tops{
+        display: block;
+    }
+
+    .card{
+        display: none;
+    }
+
+    .nav1{
+        padding-left: 0;
+    }
+
+    .nav:nth-child(6){
+        padding-left: 30px;
+        transform: translateY(-10px);
+    }
+
+    .nav:nth-child(4){
+        padding-left: 10px;
+    }
+
+    .nav:nth-child(5){
+        padding-left: 30px;
+        /* padding-top: -20px; */
+    }
+    .help{
+        display: none;
+    }
+
+    .box-container, .tweet, .counthead, .foot-span{
+       flex-direction: column;
+    }
+
+    .twitter-box{
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .count{
+        height: 100%;
+    }
+
+    .counthead{
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .counts2, .counts3, .counts1{
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 0;
+        margin-top: 0;
+        height: 100px;
+        width: 100;
+    }
+
+    .count-container{
+        height: 100%;
+        padding-bottom: 100px;
+    }
+
+    .tech-span{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .tech{
+        width: 30%;
+        height: 10%;
+
+    }
+
+    .tech img{
+        width: 100px;
+    }
+
+   .global img{
+        width: 250px;
+   } 
+
+   .headerr{
+    width: 300px;
+   }
+
+   .header{
+    width: 300px;
+   }
+
+   .con4{
+    width: 300px;
+   }
+
+
+   .con1{
+    font-size: 40px;
+   }
+
+   .content, .top{
+    margin-left: 20px;
+   }
+
+   .printivo{
+    width: 100px;
+   }
+
+   .head1{
+    margin-left: 20px;
+   }
+
+   .head2{
+    margin-right: 20px;
+   }
+
+   .box-container{
+    
+    padding: 0;
+    margin-left: 20px;
+   }
+
+   .big{
+    width: 100%;
+   }
+
+   .head{
+    justify-content: space-between;
+   }
+
+   .box {
+    width: 100%;
+   }
+
+   .box img{
+    width: 100%;
+   }
+
+   .twitter-box{
+    width: 100%;
+    padding-right: 30px;
+   }
+
+   .tweet{
+    margin-left: 20px;
+   }
+   .top55{
+    transform: translateX(90px);
+   }
+
+   .search{
+    transform: translate(-40px,4px);
+   }
+ }
